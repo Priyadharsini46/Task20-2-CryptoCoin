@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Akronim&family=Poppins:ital,wght@0,400;1,600&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  padding: 0px;
+  margin: 0px;
+  background-color: rgba(29, 16, 16, 0.918);
+  color: white;
+}
+
+span {
+  color: purple;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 900;
+}
+p {
+  font-size: 20px;
+  color: white;
+  text-shadow: 4px 4px 2px rgba(214, 91, 9, 0.6);
+}
+
+.search {
+  position: relative;
+  box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
+  padding: 15px;
+  width: 90%;
+}
+
+.search input {
+  height: 50px;
+  text-indent: 25px;
+  border: 2px solid #423c3c;
+}
+
+.search input:focus {
+  box-shadow: none;
+  border: 2px solid blue;
+}
+
+.search .fa-search {
+  position: absolute;
+  top: 20px;
+  left: 16px;
+}
+
+.search button {
+  position: absolute;
+  top: 21px;
+  right: 25px;
+  height: 38px;
+  width: 110px;
+  background: blue;
+}
+
+.head-content {
+  text-align: center;
+  padding-bottom: 10px;
+  background-image: linear-gradient(
+    to right top,
+    #edd015,
+    #ff8b11,
+    #ff0f57,
+    #ff00a1,
+    #8312eb
+  );
+  text-shadow: 4px 4px 2px rgba(205, 197, 95, 0.6);
+  color: white;
+  font-family: "Akronim", cursive;
+}
+.container {
+  margin: 0px;
+  padding: 0px;
+  overflow-y: scroll;
+  height: 500px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.col-6 {
+  font-size: 15px;
+  text-align: left;
+  width: auto;
+  border-color: orange;
+  border-style: solid;
+  border-width: 1px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
+  margin: 0%;
+  margin-left: 20px;
+}
+
+.col {
+  width: 100%;
+  text-align: left;
+}
+
+.col-sm {
+  font-size: 18px;
+  font-weight: 500px;
+  color: orange;
+  margin: 10px;
+  width: auto;
+}
+
+.row {
+  justify-content: space-around;
+}
+
+.col-sm-6 {
+  display: flex;
+  height: auto;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+.content {
+  background-color: rgb(240, 229, 229);
+  color: rgb(39, 85, 85);
+  border-radius: 15px;
+  background-color: rgb(87, 230, 230);
+}
